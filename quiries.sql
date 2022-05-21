@@ -13,3 +13,5 @@ SELECT * FROM `customers` WHERE country = 'usa' GROUP BY creditLimit HAVING phon
 
 
 lorem ipsum
+
+serum dolor
