@@ -5,7 +5,7 @@ SELECT productCode , COUNT(productCode) , priceEach FROM `orderdetails` GROUP BY
 
 -- 2nd QUESTION
 
-SELECT * FROM `payments`WHERE paymentDate LIKE '%-05'; 
+SELECT * FROM `payments`WHERE paymentDate LIKE '%-05' OR paymentDate LIKE '%-06'; 
 
 -- 3rd QUESTION
 
