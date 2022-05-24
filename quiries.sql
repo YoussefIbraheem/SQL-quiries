@@ -1,7 +1,7 @@
 
 -- 1st QUESTION
 
-SELECT productCode , COUNT(productCode) , priceEach FROM `orderdetails` GROUP BY productCode HAVING productCode LIKE 'S18%' AND priceEach > 100 ORDER BY priceEach DESC;
+SELECT productCode , COUNT(productCode) , priceEach FROM `orderdetails` GROUP BY orderNumber HAVING productCode LIKE 'S18%' AND priceEach > 100 ORDER BY priceEach DESC;
 
 -- 2nd QUESTION
 
